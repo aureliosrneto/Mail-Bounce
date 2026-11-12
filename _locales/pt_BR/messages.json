@@ -1,0 +1,82 @@
+{
+  "extensionDescription": {
+    "message": "Envia a mensagem exibida para até seis endereços pré-configurados ou para um endereço informado manualmente."
+  },
+  "optionsTitle": {
+    "message": "Mail Bounce — Configurações"
+  },
+  "optionsIntro": {
+    "message": "Configure até seis destinos. Os endereços preenchidos aparecerão como links no cabeçalho da mensagem."
+  },
+  "copyToSent": {
+    "message": "Salvar uma cópia na pasta Enviados"
+  },
+  "save": {
+    "message": "Salvar"
+  },
+  "optionalName": {
+    "message": "Nome opcional"
+  },
+  "emailPlaceholder": {
+    "message": "destino@empresa.com.br"
+  },
+  "saved": {
+    "message": "Configurações salvas."
+  },
+  "bounceCaption": {
+    "message": "Bounce:"
+  },
+  "redirectTitle": {
+    "message": "Enviar imediatamente para $EMAIL$",
+    "placeholders": {
+      "email": {
+        "content": "$1"
+      }
+    }
+  },
+  "sendingTo": {
+    "message": "Enviando para $EMAIL$…",
+    "placeholders": {
+      "email": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "Erro: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noIdentity": {
+    "message": "Nenhuma identidade de envio está configurada no Thunderbird."
+  },
+  "activeTabError": {
+    "message": "Não foi possível identificar a aba ativa."
+  },
+  "noDisplayedMessage": {
+    "message": "Nenhuma mensagem está sendo exibida na aba ativa."
+  },
+  "sentSuccess": {
+    "message": "Bounce enviado com sucesso."
+  },
+  "customPlaceholder": {
+    "message": "Outro endereço de e-mail"
+  },
+  "customSendTitle": {
+    "message": "Fazer bounce para este endereço"
+  },
+  "invalidEmail": {
+    "message": "Informe um endereço de e-mail válido."
+  },
+  "sentCopyWarning": {
+    "message": "Mensagem enviada, mas não foi possível salvar uma cópia em Enviadas: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}

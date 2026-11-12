@@ -1,0 +1,14 @@
+:root { font: message-box; }
+body { margin: 0; background: var(--in-content-page-background, Canvas); color: var(--in-content-page-color, CanvasText); }
+main { max-width: 780px; margin: 32px auto; padding: 0 24px; }
+h1 { margin-bottom: 8px; }
+p { margin-bottom: 24px; }
+.row { display: grid; grid-template-columns: 42px minmax(180px, .8fr) minmax(280px, 1.2fr); gap: 12px; align-items: center; margin: 10px 0; }
+.row input { width: 100%; box-sizing: border-box; padding: 8px 10px; }
+.number { text-align: right; opacity: .75; }
+.check { display: block; margin: 22px 0; }
+.actions { display: flex; align-items: center; gap: 14px; }
+button { padding: 8px 18px; }
+#status.ok { color: #128a3a; }
+#status.error { color: #b00020; }
+

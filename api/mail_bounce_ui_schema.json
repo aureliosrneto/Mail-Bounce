@@ -1,0 +1,154 @@
+[
+  {
+    "namespace": "mailBounceUI",
+    "types": [
+      {
+        "id": "LocalizedStrings",
+        "type": "object",
+        "properties": {
+          "caption": {
+            "type": "string",
+            "optional": true
+          },
+          "redirectTitle": {
+            "type": "string",
+            "optional": true
+          },
+          "sendingTo": {
+            "type": "string",
+            "optional": true
+          },
+          "errorPrefix": {
+            "type": "string",
+            "optional": true
+          },
+          "customPlaceholder": {
+            "type": "string",
+            "optional": true
+          },
+          "customSendTitle": {
+            "type": "string",
+            "optional": true
+          },
+          "invalidEmail": {
+            "type": "string",
+            "optional": true
+          }
+        }
+      },
+      {
+        "id": "QuickAddress",
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "optional": true
+          },
+          "email": {
+            "type": "string"
+          }
+        }
+      },
+      {
+        "id": "DestinationDetails",
+        "type": "object",
+        "properties": {
+          "windowId": {
+            "type": "integer"
+          },
+          "email": {
+            "type": "string"
+          }
+        }
+      }
+    ],
+    "functions": [
+      {
+        "name": "initialize",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "strings",
+            "$ref": "LocalizedStrings"
+          }
+        ]
+      },
+      {
+        "name": "setAddresses",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "addresses",
+            "type": "array",
+            "items": {
+              "$ref": "QuickAddress"
+            }
+          }
+        ]
+      },
+      {
+        "name": "redirectMessage",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "messageId",
+            "type": "integer"
+          },
+          {
+            "name": "destination",
+            "type": "string"
+          },
+          {
+            "name": "identityId",
+            "type": "string"
+          },
+          {
+            "name": "copyToSent",
+            "type": "boolean"
+          },
+          {
+            "name": "rawMessage",
+            "type": "string"
+          }
+        ],
+        "returns": {
+          "type": "string"
+        }
+      },
+      {
+        "name": "setStatus",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "windowId",
+            "type": "integer"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          },
+          {
+            "name": "isError",
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": "onDestinationSelected",
+        "type": "function",
+        "parameters": [
+          {
+            "name": "details",
+            "$ref": "DestinationDetails"
+          }
+        ]
+      }
+    ]
+  }
+]

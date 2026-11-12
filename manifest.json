@@ -1,0 +1,54 @@
+{
+  "manifest_version": 2,
+  "name": "Mail Bounce",
+  "short_name": "Mail Bounce",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.3.23",
+  "author": "Aurélio de Souza Ribeiro Neto",
+  "applications": {
+    "gecko": {
+      "id": "mail-bounce@mpc.com.br",
+      "strict_min_version": "153.0.1"
+    }
+  },
+  "experiment_apis": {
+    "mailBounceUI": {
+      "schema": "api/mail_bounce_ui_schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "mailBounceUI"
+          ]
+        ],
+        "script": "api/mail_bounce_ui.js",
+        "events": [
+          "startup"
+        ]
+      }
+    }
+  },
+  "icons": {
+    "32": "icons/mail-bounce.svg",
+    "48": "icons/mail-bounce.svg",
+    "64": "icons/mail-bounce.svg"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "permissions": [
+    "storage",
+    "messagesRead",
+    "accountsRead",
+    "activeTab"
+  ],
+  "options_ui": {
+    "page": "mail_bounce_options.html",
+    "browser_style": true,
+    "open_in_tab": true
+  },
+  "default_locale": "en_US"
+}

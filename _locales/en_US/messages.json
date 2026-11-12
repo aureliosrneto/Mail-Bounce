@@ -1,0 +1,82 @@
+{
+  "extensionDescription": {
+    "message": "Sends the displayed message to up to six preconfigured addresses or to a manually entered address."
+  },
+  "optionsTitle": {
+    "message": "Mail Bounce — Settings"
+  },
+  "optionsIntro": {
+    "message": "Configure up to six destinations. Filled addresses will appear as links in the message header."
+  },
+  "copyToSent": {
+    "message": "Save a copy in the Sent folder"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "optionalName": {
+    "message": "Optional name"
+  },
+  "emailPlaceholder": {
+    "message": "destination@company.com"
+  },
+  "saved": {
+    "message": "Settings saved."
+  },
+  "bounceCaption": {
+    "message": "Bounce:"
+  },
+  "redirectTitle": {
+    "message": "Send immediately to $EMAIL$",
+    "placeholders": {
+      "email": {
+        "content": "$1"
+      }
+    }
+  },
+  "sendingTo": {
+    "message": "Sending to $EMAIL$…",
+    "placeholders": {
+      "email": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "Error: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noIdentity": {
+    "message": "No sending identity is configured in Thunderbird."
+  },
+  "activeTabError": {
+    "message": "Could not identify the active tab."
+  },
+  "noDisplayedMessage": {
+    "message": "No message is being displayed in the active tab."
+  },
+  "sentSuccess": {
+    "message": "Bounce sent successfully."
+  },
+  "customPlaceholder": {
+    "message": "Other email address"
+  },
+  "customSendTitle": {
+    "message": "Bounce to this address"
+  },
+  "invalidEmail": {
+    "message": "Enter a valid email address."
+  },
+  "sentCopyWarning": {
+    "message": "Message sent, but a copy could not be saved in Sent: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  }
+}

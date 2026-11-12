@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="optionsTitle">Mail Bounce — Settings</title>
+  <link rel="stylesheet" href="mail_bounce_options.css">
+</head>
+<body>
+  <main>
+    <h1>Mail Bounce</h1>
+    <p data-i18n="optionsIntro"></p>
+    <form id="settings">
+      <div id="addresses"></div>
+      <label class="check">
+        <input id="copyToSent" type="checkbox">
+        <span data-i18n="copyToSent"></span>
+      </label>
+      <div class="actions">
+        <button type="submit" data-i18n="save"></button>
+        <span id="status" role="status"></span>
+      </div>
+    </form>
+  </main>
+  <script src="mail_bounce_options.js"></script>
+</body>
+</html>
