@@ -4,7 +4,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-## English
+\n> **Project status / Estado do projeto:** Documentation is public; source code and the installable `.xpi` have not yet been uploaded or verified. / A documentação está pública; o código-fonte e o instalador `.xpi` ainda não foram enviados ou verificados.\n\n## English
 
 Mail Bounce redirects email messages to one or several recipients while aiming to preserve the original sender and message content, unlike conventional forwarding.
 
@@ -63,3 +63,11 @@ Licenciado sob a [Apache License 2.0](LICENSE). Cópias e trabalhos derivados de
 ---
 
 Copyright © 2026 Aurélio de Souza Ribeiro Neto.
+
+## Project documents / Documentos do projeto
+
+- [Security policy / Política de segurança](SECURITY.md)
+- [Contributing / Como contribuir](CONTRIBUTING.md)
+- [Changelog / Histórico de alterações](CHANGELOG.md)
+- [License / Licença](LICENSE)
+- [Attribution / Créditos](NOTICE)
