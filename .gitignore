@@ -21,3 +21,6 @@ Thumbs.db
 # Local Thunderbird profiles / Perfis locais
 profiles/
 thunderbird-profile/
+
+# Release binaries / Binários de lançamento
+*.xpi
