@@ -1,0 +1,10 @@
+# Normalize text files in the Git repository while keeping Windows support.
+# Normalizar texto no Git, mantendo compatibilidade com Windows.
+* text=auto
+*.js text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+*.md text eol=lf
+*.xpi binary
