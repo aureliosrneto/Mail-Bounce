@@ -1,0 +1,23 @@
+# Security / Segurança
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.sqlite
+*.sqlite3
+*.mbox
+*.eml
+*.msg
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local Thunderbird profiles / Perfis locais
+profiles/
+thunderbird-profile/
