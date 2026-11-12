@@ -4,7 +4,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-> **Project status / Estado do projeto:** Documentation is public; source code and the installable `.xpi` have not yet been uploaded or verified. / A documentação está pública; o código-fonte e o instalador `.xpi` ainda não foram enviados ou verificados.\n\n## English
+> **Published / Publicado:** Source code v0.3.23 is on `main`; the installable XPI is available in [Release v0.3.23](https://github.com/aureliosrneto/Mail-Bounce/releases/tag/v0.3.23). / O código-fonte v0.3.23 está na `main` e o XPI está disponível na Release.
 
 Mail Bounce redirects email messages to one or several recipients while aiming to preserve the original sender and message content, unlike conventional forwarding.
 
@@ -18,7 +18,7 @@ Mail Bounce redirects email messages to one or several recipients while aiming t
 
 ### Installation
 
-Download a published `.xpi` file from [Releases](https://github.com/aureliosrneto/Mail-Bounce/releases), open **Thunderbird → Add-ons and Themes → Install Add-on From File**, and select it. Check each release's compatibility with your Thunderbird version.
+Download a published `.xpi` file from [Releases](https://github.com/aureliosrneto/Mail-Bounce/releases), open **Thunderbird → Add-ons and Themes → Install Add-on From File**, and select it. Manifest minimum: Thunderbird **153.0.1**; no maximum declared (not a guarantee of compatibility with future versions). Check each release's compatibility before installing.
 
 ### Security and privacy
 
@@ -47,7 +47,7 @@ O Mail Bounce redireciona mensagens de e-mail para um ou vários destinatários,
 
 ### Instalação
 
-Baixe o arquivo `.xpi` de uma versão publicada em [Releases](https://github.com/aureliosrneto/Mail-Bounce/releases). No Thunderbird, acesse **Extensões e Temas → Instalar extensão de um arquivo**. Confira a compatibilidade de cada versão.
+Baixe o arquivo `.xpi` de uma versão publicada em [Releases](https://github.com/aureliosrneto/Mail-Bounce/releases). No Thunderbird, acesse **Extensões e Temas → Instalar extensão de um arquivo**. O manifesto declara Thunderbird mínimo **153.0.1**, sem máximo definido (isso não garante funcionamento em todas as versões futuras). Confira a compatibilidade antes de instalar.
 
 ### Segurança e privacidade
 
@@ -66,6 +66,7 @@ Copyright © 2026 Aurélio de Souza Ribeiro Neto.
 
 ## Project documents / Documentos do projeto
 
+- [Source and release / Código-fonte e lançamento](docs/BUILD.md)
 - [Security policy / Política de segurança](SECURITY.md)
 - [Contributing / Como contribuir](CONTRIBUTING.md)
 - [Changelog / Histórico de alterações](CHANGELOG.md)
